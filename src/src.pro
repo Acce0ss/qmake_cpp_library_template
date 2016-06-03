@@ -1,5 +1,3 @@
-
-
 include(../common.pri)
 
 TARGET = mylib

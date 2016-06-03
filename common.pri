@@ -4,3 +4,4 @@ CONFIG += console
 CONFIG -= app_bundle
 CONFIG -= qt
 
+QMAKE_CLEAN += $(TARGET)

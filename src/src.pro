@@ -2,12 +2,11 @@
 
 include(../common.pri)
 
-TARGET = laskenta
+TARGET = mylib
 TEMPLATE = lib
 
 HEADERS += \
-    myclass.h \
-    global_defines.h
+    myclass.h
 
 SOURCES += \
     myclass.cc

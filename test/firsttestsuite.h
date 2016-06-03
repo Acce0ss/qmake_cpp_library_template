@@ -6,11 +6,15 @@
 
 class FirstTestSuite : public CxxTest::TestSuite
 {
-public:
+  public:
     void testAddition(void)
     {
-        TS_ASSERT(1 + 1 > 1);
-        TS_ASSERT_EQUALS(testObj.addition(1,1), 2);
+      TS_ASSERT_EQUALS(testObj.addition(1,1), 2);
+    }
+
+    void testAdd2Plus3Is5()
+    {
+      TS_ASSERT_EQUALS(testObj.addition(2,3), 5);
     }
 
     MyClass testObj;
